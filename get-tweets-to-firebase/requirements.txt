@@ -1,0 +1,4 @@
+# Insert pip-installed python packages here (should not need to be modified for now)
+tweepy==3.7.0
+firebase_admin==2.16.0
+geocoder==1.38.1

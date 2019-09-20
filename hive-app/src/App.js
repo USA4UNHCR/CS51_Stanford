@@ -1,4 +1,4 @@
-import React, {Component, Fragment} from 'react';
+import React, {Component} from 'react';
 import GoogleMap from 'google-map-react';
 import SplitterLayout from 'react-splitter-layout';
 import 'react-splitter-layout/lib/index.css';
@@ -9,9 +9,7 @@ import {
 } from './data/numbers'
 import Marker from './marker.js';
 import PropTypes from 'prop-types';
-import InfluenceFlag from './influenceFlag.js';
 import TableEntry from './TableEntry.js';
-import { SearchBox } from 'react-instantsearch-dom';
 import './fonts.css';
 import { Timeline } from 'react-twitter-widgets';
 
@@ -35,20 +33,20 @@ const makeData = () => {
 
       {/* macro array */}
       var macroA = Object.values(data.macro);
-      for (var i = 0; i < macroA.length; i++) {
-        macroA[i].influence = "macro";
+      for (var j = 0; j < macroA.length; j++) {
+        macroA[j].influence = "macro";
       }
 
       {/* mid array */}
       var midA = Object.values(data.mid);
-      for (var i = 0; i < midA.length; i++) {
-        midA[i].influence = "mid";
+      for (var k = 0; k < midA.length; k++) {
+        midA[k].influence = "mid";
       }
 
       {/* micro array */}
       var microA = Object.values(data.micro);
-      for (var i = 0; i < microA.length; i++) {
-        microA[i].influence = "micro";
+      for (var l = 0; l < microA.length; l++) {
+        microA[l].influence = "micro";
       }
 
       // combine all the arrays together in order from highest rank -> lowest
@@ -130,6 +128,7 @@ class SimpleMap extends Component {
       center: [marker.lat, marker.lng],
       activeMarker: marker.marker,
     });
+    console.log("child clicked");
   }
 
   constructor(props) {
@@ -155,14 +154,13 @@ class SimpleMap extends Component {
     makeData(data => self.setState({ data: data, dataIsLoaded: true }));
 
     if(this.state.dataIsLoaded === false) {
-      console.log('not yet!!');
+      console.log('data not yet loaded');
     } else {
-      console.log('now!!!');
+      console.log('data loaded');
     }
   }
 
   render() {
-    const handle = this.state.activeMarker.Handle;
     return (
       <div>
       {/* restrict sidebar to 20% of the screen */}

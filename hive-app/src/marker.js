@@ -88,9 +88,6 @@ export default class Marker extends Component {
     handle: 'handle',
   };
 
-  constructor(props) {
-    super(props);
-  }
 
   render() {
 

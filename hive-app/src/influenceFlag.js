@@ -9,7 +9,6 @@ import {
   MICRO_COLOR,
   MID_COLOR,
   MACRO_COLOR,
-  STAR_COLOR,
 } from './data/numbers'
 import './fonts.css'
 
@@ -26,9 +25,8 @@ const starInfluenceStyle = {
   alignItems:'center',
   paddingLeft: 4,
 
-  // color
+  // bg color
   backgroundColor: '#ecbf42',
-  color: 'black',
 
   // font
   color: 'black',
@@ -63,10 +61,6 @@ export default class InfluenceFlag extends Component {
   static defaultProps = {
     influence: "star",
   };
-
-  constructor(props) {
-    super(props);
-  }
 
   render() {
     let influenceText;

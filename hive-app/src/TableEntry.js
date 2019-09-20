@@ -1,15 +1,12 @@
 // Component for an entry in the influencer table
 // Includes name, handle, location, and influence flag
 import React, {Component} from 'react';
-import styled from 'styled-components';
 import PropTypes from 'prop-types';
 import {
   M_WIDTH,
 } from './data/numbers';
 import InfluenceFlag from './influenceFlag.js';
 import './fonts.css';
-
-const ENTRY_INFO_LENGTH = M_WIDTH * 4;
 
 const cellStyle = {
   display: 'flex',
@@ -27,22 +24,10 @@ const entryStyle = {
   padding: 20,
 };
 
-const imageStyle = {
-  width: ENTRY_INFO_LENGTH,
-  height: ENTRY_INFO_LENGTH,
-  minWidth: ENTRY_INFO_LENGTH,
-  minHeight: ENTRY_INFO_LENGTH,
-  borderRadius: ENTRY_INFO_LENGTH,
-
-  backgroundColor: 'LightGray',
-  marginRight: 20,
-};
-
 const infoStyle = {
   display: 'flex',
   flexDirection: 'column',
   whiteSpace: 'wrap',
-  display: 'flex',
   justifyContent: 'start',
 };
 
@@ -75,9 +60,6 @@ export default class TableEntry extends Component {
   static propTypes = {
     influence: PropTypes.number,
   };
-  constructor(props) {
-    super(props);
-  }
 
   render() {
     // highlights the entry if its marker is active (has been clicked)

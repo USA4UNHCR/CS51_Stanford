@@ -1,5 +1,6 @@
 {
   "name": "hive-app",
+  "homepage" : "http://usaforunhcr.github.io/cs51_stanford/hive-app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

@@ -1,15 +1,15 @@
 {
-  "main.css": "/it_testenv/static/css/main.b14591ea.chunk.css",
-  "main.js": "/it_testenv/static/js/main.042412e1.chunk.js",
-  "main.js.map": "/it_testenv/static/js/main.042412e1.chunk.js.map",
-  "runtime~main.js": "/it_testenv/static/js/runtime~main.6765fd77.js",
-  "runtime~main.js.map": "/it_testenv/static/js/runtime~main.6765fd77.js.map",
-  "static/css/2.0c85512e.chunk.css": "/it_testenv/static/css/2.0c85512e.chunk.css",
-  "static/js/2.e04f9eb5.chunk.js": "/it_testenv/static/js/2.e04f9eb5.chunk.js",
-  "static/js/2.e04f9eb5.chunk.js.map": "/it_testenv/static/js/2.e04f9eb5.chunk.js.map",
-  "index.html": "/it_testenv/index.html",
-  "precache-manifest.4b3e5ce3cde73f610c03f98e21e6aa48.js": "/it_testenv/precache-manifest.4b3e5ce3cde73f610c03f98e21e6aa48.js",
-  "service-worker.js": "/it_testenv/service-worker.js",
-  "static/css/2.0c85512e.chunk.css.map": "/it_testenv/static/css/2.0c85512e.chunk.css.map",
-  "static/css/main.b14591ea.chunk.css.map": "/it_testenv/static/css/main.b14591ea.chunk.css.map"
+  "main.css": "/CS51_Stanford/static/css/main.b14591ea.chunk.css",
+  "main.js": "/CS51_Stanford/static/js/main.dfb079da.chunk.js",
+  "main.js.map": "/CS51_Stanford/static/js/main.dfb079da.chunk.js.map",
+  "runtime~main.js": "/CS51_Stanford/static/js/runtime~main.4b4d182e.js",
+  "runtime~main.js.map": "/CS51_Stanford/static/js/runtime~main.4b4d182e.js.map",
+  "static/css/2.0c85512e.chunk.css": "/CS51_Stanford/static/css/2.0c85512e.chunk.css",
+  "static/js/2.e04f9eb5.chunk.js": "/CS51_Stanford/static/js/2.e04f9eb5.chunk.js",
+  "static/js/2.e04f9eb5.chunk.js.map": "/CS51_Stanford/static/js/2.e04f9eb5.chunk.js.map",
+  "index.html": "/CS51_Stanford/index.html",
+  "precache-manifest.1ebb96f65020a99d4c60fd2d785adfb9.js": "/CS51_Stanford/precache-manifest.1ebb96f65020a99d4c60fd2d785adfb9.js",
+  "service-worker.js": "/CS51_Stanford/service-worker.js",
+  "static/css/2.0c85512e.chunk.css.map": "/CS51_Stanford/static/css/2.0c85512e.chunk.css.map",
+  "static/css/main.b14591ea.chunk.css.map": "/CS51_Stanford/static/css/main.b14591ea.chunk.css.map"
 }

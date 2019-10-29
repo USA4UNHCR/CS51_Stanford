@@ -65,7 +65,7 @@ export default class InfluenceFlag extends Component {
   render() {
     let influenceText;
     let style;
-    {/* sets the correct style and text */}
+    /* sets the correct style and text */
     if (this.props.influence === "micro") {
       influenceText = "MICRO";
       style = microInfluenceStyle;

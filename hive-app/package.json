@@ -1,10 +1,11 @@
 {
   "name": "hive-app",
-  "homepage" : "http://usa4unhcr.github.io/cs51_stanford/hive-app",
+  "homepage": "http://usa4unhcr.github.io/cs51_stanford",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@babel/plugin-proposal-decorators": "^7.4.4",
+    "gh-pages": "^2.1.1",
     "google-map-react": "^1.1.4",
     "google-maps-react": "^2.0.2",
     "number-abbreviate": "^2.0.0",
@@ -21,6 +22,8 @@
     "styled-components": "^4.2.0"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b master -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
